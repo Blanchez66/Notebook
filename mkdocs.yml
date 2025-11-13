@@ -1,30 +1,36 @@
 site_name: z66's Notebook
+repo_url: https://github.com/Blanchez66/Notebook
+repo_name: Blanchez66/Notebook
+
 markdown_extensions:
-- pymdownx.superfences
-- pymdownx.highlight:
+  - pymdownx.superfences
+  - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-- pymdownx.inlinehilite
-- pymdownx.emoji:
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-- attr_list
-- md_in_html
-# below is for the admonition extension
-- admonition
-- pymdownx.details
-- pymdownx.superfences
-- pymdownx.arithmatex:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
       generic: true
+
 plugins:
-- glightbox
+  - glightbox
+
 theme:
-name: 'material'
-icon:
-   logo: simple/keras
-   menu: fontawesome/solid/left-long
-   admonition:
+  name: material
+  icon:
+    logo: material/book-edit
+    repo: fontawesome/brands/github
+    favicon: assets/image/logo1.png
+    menu: fontawesome/solid/left-long
+    admonition:
       note: material/notebook
       abstract: material/format-list-bulleted
       info: octicons/info-16
@@ -37,28 +43,30 @@ icon:
       bug: octicons/bug-16
       example: material/pencil-outline
       quote: fontawesome/solid/quote-right
-features: 
-   - content.code.copy
-   - content.code.annotate
-   - content.code.select
-palette: 
-   # Palette toggle for light mode
-   - scheme: default
-     primary: orange
-     toggle:
-       icon: material/brightness-7 
-       name: Switch to dark mode
-   # Palette toggle for dark mode
-   - scheme: slate
-     primary: dark purple
-     toggle: 
-       icon: material/brightness-4
-       name: Switch to light mode
+
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.code.select
+    - navigation.top
+  palette:
+    - scheme: default
+      primary: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
 extra_javascript:
-- javascripts/mathjax.js
-- https://polyfill.io/v3/polyfill.min.js?features=es6
-- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 extra_css:
-   - stylesheets/extra.css
-   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
-   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+  - stylesheets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css

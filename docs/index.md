@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 👋Welcome to My Notebook
 
-## Commands
+I'm **Blachez66**, a Computer Science and Technology student at Zhejiang University  💻(Class of 2024). 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+I'm currently working hard on my studies and always eager to learn, explore, and discuss new ideas in computer science 🤓.
 
-## Project layout
+Feel free to reach out — I’d love to exchange thoughts, share experiences, or hear any suggestions or advice you might have 💬.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Thanks for visiting!  🙌
