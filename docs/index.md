@@ -2,7 +2,7 @@
 
 ## 👋Welcome to My Notebook
 
-I'm **Blachez66**, a Computer Science and Technology student at Zhejiang University  💻(Class of 2024). 
+I'm **Blanchez66**, a Computer Science and Technology student at Zhejiang University  💻(Class of 2024). 
 
 I'm currently working hard on my studies and always eager to learn, explore, and discuss new ideas in computer science 🤓.
 
