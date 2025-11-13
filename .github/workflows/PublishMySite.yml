@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   deploy:
@@ -15,13 +12,15 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: |
-          pip install mkdocs-material
-          pip install mkdocs-glightbox
-      - run: mkdocs gh-deploy --force --remote-name origin --remote-branch gh-pages
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Deploy site
+        run: mkdocs gh-deploy --force --remote-name origin --remote-branch gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
