@@ -27,10 +27,10 @@ plugins:
 
 theme:
   name: material
+  favicon: assets/image/logo1.png
   icon:
     logo: material/book-edit
     repo: fontawesome/brands/github
-    favicon: assets/image/logo1.png
     menu: fontawesome/solid/left-long
     admonition:
       note: material/notebook
@@ -45,6 +45,7 @@ theme:
       bug: octicons/bug-16
       example: material/pencil-outline
       quote: fontawesome/solid/quote-right
+      code: fontawesome/solid/code
 
   features:
     - content.code.copy
@@ -52,7 +53,7 @@ theme:
     - content.code.select
     - navigation.top
     - navigation.indexes
-    - navigation.sections
+    - navigation.tabs
 
   palette:
     - scheme: default

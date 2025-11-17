@@ -15,10 +15,3 @@ background-color: #000000;
 -webkit-mask-image: var(--md-admonition-icon--math);
         mask-image: var(--md-admonition-icon--math);
 }
-/* 让左上角 logo 显示成圆形 */
-.md-header__button.md-logo img {
-  border-radius: 50%;
-  object-fit: cover;
-  width: 48px;
-  height: 48px;
-}
