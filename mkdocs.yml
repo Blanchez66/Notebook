@@ -19,7 +19,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
-
+  - pymdownx.tasklist
+  - pymdownx.superfences
+  - pymdownx.tilde
 plugins:
   - glightbox
 
@@ -49,6 +51,9 @@ theme:
     - content.code.annotate
     - content.code.select
     - navigation.top
+    - navigation.indexes
+    - navigation.sections
+
   palette:
     - scheme: default
       primary: orange
